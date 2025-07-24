@@ -1,1 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import "tailwindcss";
+
+@theme {
+  /* Custom breakpoints */
+  --breakpoint-lg: 90rem; /* 1440px */
+
+  /* Colors */
+  --color-gray-950: #24242c;
+  --color-gray-600: #4c5862;
+  --color-gray-550: #878d92;
+  --color-gray-100: #e7e7e7;
+
+  --color-purple-950: #2d2e40;
+  --color-purple-900: #3e4062;
+  --color-purple-800: #52526f;
+
+  --color-red-500: #ff505c;
+  --color-red-400: #ff7b86;
+  --color-red-50: #f9f6f6;
+
+  --color-blue-900: #1f3e5a;
+
+  /* Gradients */
+  --color-gradient-1: linear-gradient(to right, #2d2e40, #3f4164);
+  --color-gradient-2: linear-gradient(to right, #ff8f71, #ff3e55);
+
+  /* Typography */
+  --font-family-overpass: "Overpass", sans-serif;
+  --font-family-ubuntu: "Ubuntu", sans-serif;
+
+  --font-preset-1-font-family: var(--font-family-overpass);
+  --font-preset-1-font-size: 64px;
+  --font-preset-1-line-height: 100%;
+  --font-preset-1-letter-spacing: -2px;
+  --font-preset-1-font-weight: 600;
+
+  --font-preset-2-font-family: var(--font-family-overpass);
+  --font-preset-2-font-size: 40px;
+  --font-preset-2-line-height: 125%;
+  --font-preset-2-letter-spacing: -1.2px;
+  --font-preset-2-font-weight: 600;
+
+  --font-preset-3-font-family: var(--font-family-overpass);
+  --font-preset-3-font-size: 28px;
+  --font-preset-3-line-height: 100%;
+  --font-preset-3-letter-spacing: 0px;
+  --font-preset-3-font-weight: 600;
+
+  --font-preset-4-font-family: var(--font-family-overpass);
+  --font-preset-4-font-size: 20px;
+  --font-preset-4-line-height: 125%;
+  --font-preset-4-letter-spacing: 0px;
+  --font-preset-4-font-weight: 300;
+
+  --font-preset-5-font-family: var(--font-family-overpass);
+  --font-preset-5-font-size: 16px;
+  --font-preset-5-line-height: 175%;
+  --font-preset-5-letter-spacing: 0.6px;
+  --font-preset-5-font-weight: 300;
+
+  --font-preset-6-font-family: var(--font-family-ubuntu);
+  --font-preset-6-font-size: 16px;
+  --font-preset-6-line-height: 115%;
+  --font-preset-6-letter-spacing: 0px;
+  --font-preset-6-font-weight: 700;
+
+  --font-preset-7-font-family: var(--font-family-ubuntu);
+  --font-preset-7-font-size: 16px;
+  --font-preset-7-line-height: 200%;
+  --font-preset-7-letter-spacing: 0px;
+  --font-preset-7-font-weight: 400;
+
+  /* Spacing scale */
+  --spacing-0: 0px;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-700: 56px;
+  --spacing-800: 64px;
+  --spacing-900: 72px;
+  --spacing-1000: 80px;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+}
+
+/* Desktop and up */
+@media (min-width: 1440px) {
+}
