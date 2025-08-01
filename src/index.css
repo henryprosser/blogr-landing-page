@@ -25,6 +25,7 @@
   /* Gradients */
   --color-gradient-1: linear-gradient(to right, #2d2e40, #3f4164);
   --color-gradient-2: linear-gradient(to right, #ff8f71, #ff3e55);
+  --color-gradient-3: linear-gradient(122deg, #ff8f71, #ff3e55);
 
   /* Typography */
   --font-family-overpass: "Overpass", sans-serif;
@@ -84,6 +85,76 @@
   --spacing-800: 64px;
   --spacing-900: 72px;
   --spacing-1000: 80px;
+}
+
+/* Text Presets */
+.text-preset-1 {
+  font-family: var(--font-preset-1-font-family);
+  font-size: var(--font-preset-1-font-size);
+  line-height: var(--font-preset-1-line-height);
+  letter-spacing: var(--font-preset-1-letter-spacing);
+  font-weight: var(--font-preset-1-font-weight);
+}
+
+.text-preset-2 {
+  font-family: var(--font-preset-2-font-family);
+  font-size: var(--font-preset-2-font-size);
+  line-height: var(--font-preset-2-line-height);
+  letter-spacing: var(--font-preset-2-letter-spacing);
+  font-weight: var(--font-preset-2-font-weight);
+}
+
+.text-preset-3 {
+  font-family: var(--font-preset-3-font-family);
+  font-size: var(--font-preset-3-font-size);
+  line-height: var(--font-preset-3-line-height);
+  letter-spacing: var(--font-preset-3-letter-spacing);
+  font-weight: var(--font-preset-3-font-weight);
+}
+
+.text-preset-4 {
+  font-family: var(--font-preset-4-font-family);
+  font-size: var(--font-preset-4-font-size);
+  line-height: var(--font-preset-4-line-height);
+  letter-spacing: var(--font-preset-4-letter-spacing);
+  font-weight: var(--font-preset-4-font-weight);
+}
+
+.text-preset-5 {
+  font-family: var(--font-preset-5-font-family);
+  font-size: var(--font-preset-5-font-size);
+  line-height: var(--font-preset-5-line-height);
+  letter-spacing: var(--font-preset-5-letter-spacing);
+  font-weight: var(--font-preset-5-font-weight);
+}
+
+.text-preset-6 {
+  font-family: var(--font-preset-6-font-family);
+  font-size: var(--font-preset-6-font-size);
+  line-height: var(--font-preset-6-line-height);
+  letter-spacing: var(--font-preset-6-letter-spacing);
+  font-weight: var(--font-preset-6-font-weight);
+}
+
+.text-preset-7 {
+  font-family: var(--font-preset-7-font-family);
+  font-size: var(--font-preset-7-font-size);
+  line-height: var(--font-preset-7-line-height);
+  letter-spacing: var(--font-preset-7-letter-spacing);
+  font-weight: var(--font-preset-7-font-weight);
+}
+
+/* Gradient presets */
+.bg-gradient-1 {
+  background-image: var(--color-gradient-1);
+}
+
+.bg-gradient-2 {
+  background-image: var(--color-gradient-2);
+}
+
+.bg-gradient-3 {
+  background-image: var(--color-gradient-3);
 }
 
 /* Tablet and up */
