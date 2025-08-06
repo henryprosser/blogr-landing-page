@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Future from "./components/Future";
 import Infrastructure from "./components/Infrastructure";
 import Tools from "./components/Tools";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Infrastructure />
         <Tools />
       </main>
+      <Footer />
     </>
   );
 }
