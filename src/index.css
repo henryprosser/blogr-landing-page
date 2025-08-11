@@ -159,8 +159,20 @@
 
 /* Tablet and up */
 @media (min-width: 768px) {
+  .md\:text-preset-1 {
+    font-family: var(--font-preset-1-font-family);
+    font-size: var(--font-preset-1-font-size);
+    line-height: var(--font-preset-1-line-height);
+    letter-spacing: var(--font-preset-1-letter-spacing);
+    font-weight: var(--font-preset-1-font-weight);
+  }
 }
 
 /* Desktop and up */
 @media (min-width: 1440px) {
+}
+
+/* Default button style */
+button {
+  cursor: pointer;
 }
