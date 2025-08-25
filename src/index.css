@@ -166,6 +166,14 @@
     letter-spacing: var(--font-preset-1-letter-spacing);
     font-weight: var(--font-preset-1-font-weight);
   }
+
+  .md\:text-preset-2 {
+    font-family: var(--font-preset-2-font-family);
+    font-size: var(--font-preset-2-font-size);
+    line-height: var(--font-preset-2-line-height);
+    letter-spacing: var(--font-preset-2-letter-spacing);
+    font-weight: var(--font-preset-2-font-weight);
+  }
 }
 
 /* Desktop and up */
